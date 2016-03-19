@@ -2,9 +2,13 @@
   "name": "wowza-cloud",
   "version": "1.0.0",
   "description": "Wowza Cloud API wrapper",
-  "main": "index.js",
+  "main": "lib/wowza.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run compile",
+    "lint": "eslint src",
+    "compile": "babel src --modules common --out-dir lib",
+    "watch": "babel src --watch --modules common --out-dir lib --source-maps",
+    "test": "npm run compile && NODE_ENV=test mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
