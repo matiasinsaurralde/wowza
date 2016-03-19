@@ -27,5 +27,16 @@
   "bugs": {
     "url": "https://github.com/matiasinsaurralde/wowza/issues"
   },
-  "homepage": "https://github.com/matiasinsaurralde/wowza#readme"
+  "homepage": "https://github.com/matiasinsaurralde/wowza#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.2",
+    "babel-eslint": "^5.0.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "dotenv": "^2.0.0",
+    "mocha": "^2.4.5"
+  }
 }
