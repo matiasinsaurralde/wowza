@@ -1,5 +1,5 @@
 {
-  "name": "wowza",
+  "name": "wowza-cloud",
   "version": "1.0.0",
   "description": "Wowza Cloud API wrapper",
   "main": "index.js",
@@ -8,15 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matiasinsaurralde/wowza.git"
+    "url": "git+https://github.com/matiasinsaurralde/wowza-cloud.git"
   },
   "keywords": [
     "wowza",
-    "wowza",
-    "cloud",
-    "cloud",
-    "streaming",
-    "video",
+    "wowza cloud",
     "streaming",
     "broadcasting",
     "tv",
@@ -25,9 +21,9 @@
   "author": "Matias Insaurralde <matias@insaurral.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matiasinsaurralde/wowza/issues"
+    "url": "https://github.com/matiasinsaurralde/wowza-cloud/issues"
   },
-  "homepage": "https://github.com/matiasinsaurralde/wowza#readme",
+  "homepage": "https://github.com/matiasinsaurralde/wowza-cloud#readme",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.6.5",
