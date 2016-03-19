@@ -1,4 +1,4 @@
-# wowza-cloud
+# wowza-cloud (work in progress)
 
 [![Wercker][wercker-image]][wercker-url]
 [![NPM version][npm-image]][npm-url]
