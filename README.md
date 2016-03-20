@@ -7,6 +7,8 @@
 
 NodeJS module for interacting with Wowza Streaming Cloud.
 
+Work in progress.
+
 ## Usage
 
 There's a NPM package available:
